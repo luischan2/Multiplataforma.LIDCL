@@ -6,19 +6,21 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ubicate</title>
+    <link href="../css/Resert_css.css" rel="stylesheet" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="icon" type="image/jpg" href="img/LogoU_celeste.jpg">
+    <link rel="icon" type="image/jpg" href="../img/LogoU_celeste.jpg">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,400italic,500,300italic,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <header id="cabeza">
+        <header id="cabe">
             <div id="wrapper-header">
                 <div id="main-header" class="object">
                     <div class="logo">
-                        <img src="img/LogoU_celeste.jpg" alt="logo ubicate" height="38" width="90">
+                        <img src="../img/LogoU_celeste.jpg" alt="logo ubicate" height="38" width="90">
                     </div>
                     <div id="main_tip_search">
                         <section>
@@ -30,7 +32,7 @@
             </div>
         </header>
 
-        <nav id="navegator">
+        <nav id="navega">
             <div id="wrapper-navbar">
                 <div class="navbar object">
                     <div id="wrapper-sorting">
@@ -55,22 +57,22 @@
                     </div>
                     <div id="wrapper-bouton-icon">
                         <div id="bouton-ai">
-                            <img src="img/icon-ai.svg" alt="illustrator" title="Illustrator" height="28" width="28">
+                            <img src="../img/icon-ai.svg" alt="illustrator" title="Illustrator" height="28" width="28">
                         </div>
                         <div id="bouton-psd">
-                            <img src="img/icon-psd.svg" alt="photoshop" title="Photoshop" height="28" width="28">
+                            <img src="../img/icon-psd.svg" alt="photoshop" title="Photoshop" height="28" width="28">
                         </div>
                         <div id="bouton-theme">
-                            <img src="img/icon-themes.svg" alt="theme" title="Theme" height="28" width="28">
+                            <img src="../img/icon-themes.svg" alt="theme" title="Theme" height="28" width="28">
                         </div>
                         <div id="bouton-font">
-                            <img src="img/icon-font.svg" alt="font" title="Font" height="28" width="28">
+                            <img src="../img/icon-font.svg" alt="font" title="Font" height="28" width="28">
                         </div>
                         <div id="bouton-photo">
-                            <img src="img/icon-photo.svg" alt="photo" title="Photo" height="28" width="28">
+                            <img src="../img/icon-photo.svg" alt="photo" title="Photo" height="28" width="28">
                         </div>
                         <div id="bouton-premium">
-                            <img src="img/icon-premium.svg" alt="premium" title="Premium" height="28" width="28">
+                            <img src="../img/icon-premium.svg" alt="premium" title="Premium" height="28" width="28">
                         </div>
                     </div>
                 </div>
@@ -99,7 +101,7 @@
 
                 <div id="wrapper-thank">
                     <div class="thank">
-                        <div class="thank-text">pl<span style="letter-spacing: -5px;">a</span>tz</div>
+                        <div class="thank-text">Ubi<span style="letter-spacing: -5px;">c</span>ate</div>
                     </div>
                 </div>
 
@@ -108,15 +110,15 @@
 
                         <div id="row-1f">
                             <div class="text-row-1f">
-                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">What is Platz</span><br>
-                                Platz is a blog showcasing hand-picked free themes, design stuff, free fonts and other resources for web designers.
+                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Quienes somos</span><br>
+                                Somos una asociacion que busca informar y orientar a cualquier transeunte, turista o persona natural del Peru.
                             </div>
                         </div>
 
                         <div id="row-2f">
                             <div class="text-row-2f">
-                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">How does it work</span><br>
-                                Platz offers you all the latest freebies found all over the fourth corners without to pay.
+                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Que le ofrecemos</span><br>
+                                Ubicate le ofrece la ubicacion de oficinas de cualquier entidad gubernamental.
                             </div>
                         </div>
 

@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\Resert_css.css" />
     <Content Include="packages.config" />
     <Content Include="PMaestra\Default.aspx" />
     <Content Include="PMaestra\Maestra.Master" />
