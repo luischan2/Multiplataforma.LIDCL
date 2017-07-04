@@ -101,13 +101,20 @@ body, html {
 /*----------------------------*/
 /* HEADER BLACK TOP WITH LOGO */
 /*----------------------------*/
+/*--mio----*/
+#cabeza {
+    height:50px;
+    width:auto;
+    border:1px solid red;
+}
 
 #wrapper-header {
     float: left;
-    width: 105%;
+    width: 100%;
     height: 65px;
     background-color: #2E2D30;
     opacity: 0;
+  
 }
 
 #main-header {
