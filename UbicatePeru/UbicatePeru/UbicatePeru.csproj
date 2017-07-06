@@ -68,7 +68,10 @@
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\Editar.aspx" />
     <Content Include="Admin\NuevaDireccion.aspx" />
+    <Content Include="css\estilos.css" />
     <Content Include="packages.config" />
+    <Content Include="Pmaestra\Default.aspx" />
+    <Content Include="Pmaestra\Maestro.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -105,10 +108,25 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Pmaestra\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pmaestra\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pmaestra\Maestro.Master.cs">
+      <DependentUpon>Maestro.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pmaestra\Maestro.Master.designer.cs">
+      <DependentUpon>Maestro.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
