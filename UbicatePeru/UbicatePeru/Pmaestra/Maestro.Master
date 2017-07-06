@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maestro.master.cs" Inherits="UbicatePeru.Pmaestra.Maestro" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="cabeza">
+            <div id="cabeza_main">
+                <div class="logo">
+                    <img src="../img/LogoU_celeste.jpg" alt="logo Ubicate" width="90" height="90" />                    
+                </div>
+                <div id="stripes"></div>
+            </div>
+        </header>
+        <nav id="navegator">
+            <div class="navbar object">
+                <div id="wrapper-sorting">
+                    <div id="wrapper-title-1">
+                        <div class="top-rated object">Mas Buscardos</div>
+                        <div id="fleche-nav-1"></div>
+                    </div>
+
+                    <div id="wrapper-title-2">
+                        <a href="#">
+                            <div class="recent object">Recentes</div>
+                        </a>
+                        <div id="fleche-nav-2"></div>
+                    </div>
+
+                    <div id="wrapper-title-3">
+                        <a href="#">
+                            <div class="oldies object">Menos Buscados</div>
+                        </a>
+                        <div id="fleche-nav-3"></div>
+                    </div>
+                </div>
+                <div id="wrapper-bouton-icon">
+                    <div id="bouton-ai">
+                        <img src="https://sites.google.com/a/nd.edu/pasquerilla-west-hall/_/rsrc/1384922706357/events/fbicon.png" alt="facebook" title="Facebook" height="30" width="30">
+                    </div>
+                    <div id="bouton-psd">
+                        <img src="http://eledelengua.com/imagenes/twitter-logo.png" alt="twitter" title="Twitter" height="30" width="30">
+                    </div>
+                    <div id="bouton-theme">
+                        <img src="https://yt3.ggpht.com/-hFxEr8QHrvM/AAAAAAAAAAI/AAAAAAAAAAA/REjjL0X3gIs/s300-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="youtube" title="Youtube" height="30" width="30">
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <div id="contendor">
+            <div id="principal">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <aside id="lateral">
+            </aside>
+
+            <footer id="pie1">
+                
+                <div id="wrapper-thank">
+                    <div class="thank">
+                        <div class="thank-text">Ubi<span style="letter-spacing: -5px;">cat</span>e</div>
+                    </div>
+                </div>
+
+                <div id="main-container-footer">
+                    <div class="container-footer">
+
+                        <div id="row-1f">
+                            <div class="text-row-1f"><span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Quienes somos?</span><br>
+                                Somos una organizacion que contribuye a la orientacion de turistas, personas naturales locales o personas curiosas.</div>
+                        </div>
+
+                        <div id="row-2f">
+                            <div class="text-row-2f"><span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Que ofrecemos?</span><br>
+                                Ubicate te ofrece la direccion exacta y detalles de cualquier oficina gubernamental.</div>
+                        </div>
+
+                        <div id="row-3f">
+                            <div class="text-row-3f"><span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Como funciona?</span><br>
+                                En esta pagina podras encontrar los horaios, actividades, y ver el avance de tu tramite.</div>
+                        </div>
+
+                        <div id="row-4f">
+                            <div class="text-row-4f"><span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Contactenos</span><br>
+                                Estamos escantados de que se una a nuetsra causa, contribuyendo con tus comentarios.</div>
+
+                            <div id="main_tip_newsletter">
+                                <section>
+                                    <input type="text" name="newsletter" id="tip_newsletter_input" list="newsletter" autocomplete="off" required>
+                                </section>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
