@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ubicate</title>
     <link href="../css/Resert_css.css" rel="stylesheet" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="icon" type="image/jpg" href="../img/LogoU_celeste.jpg">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,400italic,500,300italic,300' rel='stylesheet' type='text/css'>
@@ -16,78 +16,76 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <header id="cabe">
-            <div id="wrapper-header">
-                <div id="main-header" class="object">
-                    <div class="logo">
-                        <img src="../img/LogoU_celeste.jpg" alt="logo ubicate" height="38" width="90">
-                    </div>
-                    <div id="main_tip_search">
-                        <section>
-                            <input type="text" name="search" id="tip_search_input" list="search" autocomplete="off" required>
-                        </section>
-                    </div>
-                    <div id="stripes"></div>
-                </div>
+        <header id="wrapper-header">
+            <div id="main-header" class="object">
+            <div class="logo">
+                <img src="img/LogoU_celeste.jpg" alt="logo ubicate" height="38" width="90">
             </div>
+            <div id="main_tip_search">
+                <section>
+                    <input type="text" name="search" id="tip_search_input" list="search" autocomplete="off" required>
+                </section>
+            </div>
+            <div id="stripes"></div>
+        </div>
         </header>
 
-        <nav id="navega">
-            <div id="wrapper-navbar">
-                <div class="navbar object">
-                    <div id="wrapper-sorting">
-                        <div id="wrapper-title-1">
-                            <div class="top-rated object">Top-rated</div>
-                            <div id="fleche-nav-1"></div>
-                        </div>
+        <nav id="wrapper-navbar">
+            <div class="navbar object">
+            <div id="wrapper-sorting">
+                <div id="wrapper-title-1">
+                    <div class="top-rated object">Top-rated</div>
+                    <div id="fleche-nav-1"></div>
+                </div>
 
-                        <div id="wrapper-title-2">
-                            <a href="#">
-                                <div class="recent object">Recent</div>
-                            </a>
-                            <div id="fleche-nav-2"></div>
-                        </div>
+                <div id="wrapper-title-2">
+                    <a href="#">
+                        <div class="recent object">Recent</div>
+                    </a>
+                    <div id="fleche-nav-2"></div>
+                </div>
 
-                        <div id="wrapper-title-3">
-                            <a href="#">
-                                <div class="oldies object">Oldies</div>
-                            </a>
-                            <div id="fleche-nav-3"></div>
-                        </div>
-                    </div>
-                    <div id="wrapper-bouton-icon">
-                        <div id="bouton-ai">
-                            <img src="../img/icon-ai.svg" alt="illustrator" title="Illustrator" height="28" width="28">
-                        </div>
-                        <div id="bouton-psd">
-                            <img src="../img/icon-psd.svg" alt="photoshop" title="Photoshop" height="28" width="28">
-                        </div>
-                        <div id="bouton-theme">
-                            <img src="../img/icon-themes.svg" alt="theme" title="Theme" height="28" width="28">
-                        </div>
-                        <div id="bouton-font">
-                            <img src="../img/icon-font.svg" alt="font" title="Font" height="28" width="28">
-                        </div>
-                        <div id="bouton-photo">
-                            <img src="../img/icon-photo.svg" alt="photo" title="Photo" height="28" width="28">
-                        </div>
-                        <div id="bouton-premium">
-                            <img src="../img/icon-premium.svg" alt="premium" title="Premium" height="28" width="28">
-                        </div>
-                    </div>
+                <div id="wrapper-title-3">
+                    <a href="#">
+                        <div class="oldies object">Oldies</div>
+                    </a>
+                    <div id="fleche-nav-3"></div>
                 </div>
             </div>
+            <div id="wrapper-bouton-icon">
+                <div id="bouton-ai">
+                    <img src="img/icon-ai.svg" alt="illustrator" title="Illustrator" height="28" width="28">
+                </div>
+                <div id="bouton-psd">
+                    <img src="img/icon-psd.svg" alt="photoshop" title="Photoshop" height="28" width="28">
+                </div>
+                <div id="bouton-theme">
+                    <img src="img/icon-themes.svg" alt="theme" title="Theme" height="28" width="28">
+                </div>
+                <div id="bouton-font">
+                    <img src="img/icon-font.svg" alt="font" title="Font" height="28" width="28">
+                </div>
+                <div id="bouton-photo">
+                    <img src="img/icon-photo.svg" alt="photo" title="Photo" height="28" width="28">
+                </div>
+                <div id="bouton-premium">
+                    <img src="img/icon-premium.svg" alt="premium" title="Premium" height="28" width="28">
+                </div>
+            </div>
+        </div>
         </nav>
 
-        <div id="contenedor">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-        <aside id="lateral">
-        </aside>
+        <div id="wrapper-container">
 
-        <footer id="pie1">
-            <div id="wrapper-container">
+            <div id="contenedor">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <aside id="lateral">
+            </aside>
+
+            <footer id="pie1">
+
                 <div id="wrapper-oldnew">
                     <div class="oldnew">
                         <div class="wrapper-oldnew-prev">
@@ -158,8 +156,7 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
+        </div>
         </footer>
         <footer id="pie2">&copy Ubicate</footer>
     </form>
