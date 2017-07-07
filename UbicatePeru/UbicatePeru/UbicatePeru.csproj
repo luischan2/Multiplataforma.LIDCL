@@ -81,6 +81,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Pmaestra\Otros.aspx" />
+    <Content Include="Pmaestra\Recientes.aspx" />
     <Content Include="Publicidad\Auspiciar.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -122,6 +124,20 @@
     </Compile>
     <Compile Include="Pmaestra\Maestro.Master.designer.cs">
       <DependentUpon>Maestro.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pmaestra\Otros.aspx.cs">
+      <DependentUpon>Otros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pmaestra\Otros.aspx.designer.cs">
+      <DependentUpon>Otros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pmaestra\Recientes.aspx.cs">
+      <DependentUpon>Recientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pmaestra\Recientes.aspx.designer.cs">
+      <DependentUpon>Recientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,11 +4,15 @@
     background-color:rgba(0,0,0,0.1);
     margin:0;
 }
+#fijo {
+    position:fixed;
+    top:0;
+    width:100%;
+}
 #cabeza {
     width: 100%;
     height: 120px;
     background-color: #2E2D30;
-    
 }
 #cabeza_main {
     width: 100%;
@@ -38,80 +42,29 @@
 /*--------------nav--------------*/
 #navegator {
     width: 100%;
-    height: 50px;
-    background-color: #1c95bd;
-}
-#wrapper-navbar {
-    width: 100%;
-    height: 0px;
-    
-    border-bottom: solid #EDEDED 1px;
-    
+    height: 45px;
+    border: 1px solid red;
+    background-color: aqua;
 }
 
 .navbar {
-    width: 1200px;
+    width: 100%;
     left: 50%;
-    margin-left: 10px;
     height: 100%;
-    top: 0;
+    background-color:aqua;
 }
 
-.top-rated, .recent, .oldies {
-    float: left;
-    text-align: left;
-    font-family: 'Roboto',sans-serif;
-    font-size: 13px;
-    height: 40px;
-    width:200px;
-    line-height: 40px;
-    margin-top: 10px;
-    cursor: pointer;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
 
-.top-rated {
-    color: #666;
-    margin-left: 15px;
-    font-weight: 500;
-}
-
-.recent, .oldies {
-    color: #CCC;
-    margin-left: 80px;
-    font-weight: 500;
-    margin-left: 40px;
-}
-
-    .top-rated:hover, .recent:hover, .oldies:hover {
-        color: #666;
-    }
-
-#fleche-nav-1, #fleche-nav-2, #fleche-nav-3 {
-    float: left;
-    margin-top: 26px;
-    background: url(img/fleche-nav.svg) no-repeat;
-    width: 5px;
-    height: 10px;
-    margin-left: 5px;
-}
-
-#fleche-nav-2, #fleche-nav-3 {
-    opacity: 0.5;
-}
-
-#wrapper-bouton-icon {
-    display: block;
+nav li {
+    display: inline-block;
+   font-size:20px;
+   margin-right:20px;
 }
 
 #bouton-ai, #bouton-psd, #bouton-photo, #bouton-font, #bouton-theme, #bouton-premium {
     float: right;
     width: 28px;
     height: 28px;
-    margin-top: 16px;
     margin-right: 15px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -137,13 +90,15 @@
     width:100%;
     height:auto;
     background-color:#CCC;
-      
+    
 }
 /*---------------principa-----------------*/
 #principal {
-    margin-right:35%;
-    background-color:#F2F2F2;
-    text-align:center;
+    margin-right: 30%;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-top: 210px;
+    margin-left:10px;
 }
 .oficina {
     float: left;
@@ -158,6 +113,7 @@
     background-color: #ff6a00;
     padding: 20px;
     text-align: center;
+    margin-right:10px;
 }
 /*-----------------------footer---------------*/
 #pie {
