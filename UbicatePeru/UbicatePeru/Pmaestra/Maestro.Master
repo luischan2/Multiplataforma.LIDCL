@@ -5,7 +5,8 @@
 <html>
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>Ubicate</title>
+    <link rel="icon" type="image/jpg" href="../img/LogoU_celeste.jpg">
     <link href="../css/estilos.css" rel="stylesheet" />
 </head>
 <body>
@@ -27,14 +28,14 @@
                     </div>
 
                     <div id="wrapper-title-2">
-                        <a href="#">
+                        <a href="P_resientes.aspx">
                             <div class="recent object">Recentes</div>
                         </a>
                         <div id="fleche-nav-2"></div>
                     </div>
 
                     <div id="wrapper-title-3">
-                        <a href="#">
+                        <a href="Menos.aspx">
                             <div class="oldies object">Menos Buscados</div>
                         </a>
                         <div id="fleche-nav-3"></div>
