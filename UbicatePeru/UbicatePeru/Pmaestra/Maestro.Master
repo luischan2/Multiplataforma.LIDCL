@@ -16,7 +16,7 @@
                 <div id="cabeza_main">
                     <div class="logo">
                         <a href="Default.aspx">
-                            <img src="../img/LogoU_celeste.jpg" alt="logo Ubicate" width="90" height="90" /></a>
+                            <img src="../img/LogoU_celeste.jpg" alt="logo Ubicate" width="100" height="100" /></a>
                     </div>
 
                 </div>
@@ -70,29 +70,29 @@
                     <div class="container-footer">
 
                         <div id="row-1f">
-                            <div class="text-row-1f">
-                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Quienes somos?</span><br>
-                                Somos una organizacion que contribuye a la orientacion de turistas, personas naturales locales o personas curiosas.
+                            <div class="text-row-1f"style=color:#666; >
+                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Quienes somos?</span><hr /><br>
+                                 una organizacion que contribuye a la orientacion de turistas, personas naturales locales o personas curiosas.
                             </div>
                         </div>
 
                         <div id="row-2f">
-                            <div class="text-row-2f">
-                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Que ofrecemos?</span><br>
+                            <div class="text-row-2f" style=color:#666; >
+                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Que ofrecemos?</span><hr /><br>
                                 Ubicate te ofrece la direccion exacta y detalles de cualquier oficina gubernamental.
                             </div>
                         </div>
 
-                        <div id="row-3f">
-                            <div class="text-row-3f">
-                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Como funciona?</span><br>
+                        <div id="row-3f"  >
+                            <div class="text-row-3f" style=color:#666;>
+                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Como funciona?</span><hr /><br>
                                 En esta pagina podras encontrar los horaios, actividades, y ver el avance de tu tramite.
                             </div>
                         </div>
 
                         <div id="row-4f">
-                            <div class="text-row-4f">
-                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Contactenos</span><br>
+                            <div class="text-row-4f"  style=color:#666; >
+                                <span style="font-weight: 600; font-size: 15px; color: #666; line-height: 250%; text-transform: uppercase; letter-spacing: 1.5px;">Contactenos</span><hr /><br>
                                 Estamos escantados de que se una a nuetsra causa, contribuyendo con tus comentarios.
                             </div>
 
