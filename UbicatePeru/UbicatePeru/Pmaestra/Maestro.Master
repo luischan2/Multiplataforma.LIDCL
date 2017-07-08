@@ -17,6 +17,9 @@
                     <div class="logo">
                         <a href="Default.aspx">
                             <img src="../img/LogoU_celeste.jpg" alt="logo Ubicate" width="90" height="90" /></a>
+                        <h2 id="frase_header">Si desea obtener mas informacion 
+                            puede contactarnos al numero 237-4325.
+                        </h2>
                     </div>
 
                 </div>
