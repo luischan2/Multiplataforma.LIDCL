@@ -66,6 +66,7 @@ C:\Users\Luis\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin
 C:\Users\Luis\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.csprojResolveAssemblyReference.cache
 C:\Users\Luis\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.dll
 C:\Users\Luis\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.pdb
+<<<<<<< HEAD
 C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csc.exe
 C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csc.exe.config
 C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csc.rsp
@@ -100,3 +101,39 @@ C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\
 C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.csprojResolveAssemblyReference.cache
 C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.dll
 C:\Users\Denitza\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.pdb
+=======
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csc.exe
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csc.exe.config
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csc.rsp
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csi.exe
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\csi.rsp
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\System.AppContext.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\vbc.exe
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\vbc.exe.config
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\vbc.rsp
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\UbicatePeru.dll.config
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\UbicatePeru.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\UbicatePeru.pdb
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.csprojResolveAssemblyReference.cache
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.dll
+C:\Users\Ian\Documents\GitHub\Multiplataforma.LIDCL\UbicatePeru\UbicatePeru\obj\Debug\UbicatePeru.pdb
+>>>>>>> 6cffe4f002f2765fdc4ebe3bdb282e2fdc6a0ec0
