@@ -1,0 +1,84 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url() repeat scroll 0 rgba(0,0,0,0);
+    font-family: arial;
+    background-color:rgba(0,0,0,0);
+}
+#logo {
+    border-radius:7em;
+    margin-left:150px;
+    margin-top:50px;
+}
+#wrapper {
+    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 80%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+}
+
+#bloque1 {
+    background-image: url(https://i.ytimg.com/vi/dzGLkzPzaPw/maxresdefault.jpg);
+}
+
+#bloque2 {
+    background-image: url(http://d2mcuc4z4njy7y.cloudfront.net/ima/0/0/1/8/6/186074.jpg);
+}
+
+#bloque3 {
+    background-image: url(http://proeticapoderciudadano.pe/sites/default/files/general.jpg);
+}
+
+#bloque4 {
+    background-image: url(http://proactivo.com.pe/wp-content/uploads/2016/08/sunat_andina.jpg);
+}
+
+h1 {
+    background-color: #02223a;
+    bottom: 0;
+    color: rgba(225,255,255,0.9);
+    display: block;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 3em;
+    opacity: 0.76;
+    text-align: center;
+    text-shadow: 1px 1px 1px #666;
+    text-transform: uppercase;
+    width: 100%;
+    box-shadow:5px 5px 5px #000;
+}
+h2 {
+    font-size:30px;
+    color: blue;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-shadow: 20px;
+    margin-left: 50px;
+    text-shadow: 5px 5px 5px #fff;
+}
+p {
+    font-size:25px;
+    margin-top:40px;
+    margin-left:50px;
+    color:red;
+    margin-right:50px;
+    text-align:justify;
+}
