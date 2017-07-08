@@ -68,7 +68,9 @@
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\Editar.aspx" />
     <Content Include="Admin\NuevaDireccion.aspx" />
+    <Content Include="css\estiloParallax.css" />
     <Content Include="css\estilos.css" />
+    <Content Include="Index.aspx" />
     <Content Include="packages.config" />
     <Content Include="Pmaestra\Default.aspx" />
     <Content Include="Pmaestra\Maestro.Master" />
@@ -110,6 +112,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pmaestra\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

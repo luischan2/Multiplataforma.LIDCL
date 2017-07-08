@@ -83,7 +83,7 @@ nav li {
 
 /*------flotante----*/
 .flotante {
-    background-color: blue;
+    background-color: yellow;
     width: 150px;
     height: 200px;
     z-index: 1000;
