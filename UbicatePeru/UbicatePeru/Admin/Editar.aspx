@@ -5,27 +5,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Admin-Editar</title>
+    <link href="../css/Admin_css.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="Admin_cuerpo">
             <h1>Editar Organismos</h1>
             <asp:FormView ID="FormView1" DefaultMode="Edit" runat="server" DataKeyNames="Id" DataSourceID="SqlDataSource1" OnItemUpdated="FormView1_ItemUpdated">
                 <EditItemTemplate>
                     Id:
                     <asp:Label Text='<%# Eval("Id") %>' runat="server" ID="IdLabel1" /><br />
-                    nombre:
+                    nombre:<br />
                     <asp:TextBox Text='<%# Bind("nombre") %>' runat="server" ID="nombreTextBox" /><br />
-                    descripcion:
-                    <asp:TextBox TextMode="MultiLine" Columns="50" Text='<%# Bind("descripcion") %>' runat="server" ID="descripcionTextBox" /><br />
-                    descripcion:
-                    <asp:TextBox Text='<%# Bind("direccion") %>' runat="server" ID="direccionTextBox" /><br />
-                    imagen:
+                    descripcion:<br />
+                    <asp:TextBox Rows="5" TextMode="MultiLine" Columns="50" Text='<%# Bind("descripcion") %>' runat="server" ID="descripcionTextBox" /><br />
+                    descripcion:<br />
+                    <asp:TextBox Columns="50" Text='<%# Bind("direccion") %>' runat="server" ID="direccionTextBox" /><br />
+                    imagen:<br />
                     <asp:TextBox Text='<%# Bind("imagen") %>' runat="server" ID="imagenTextBox" /><br />
-                   <asp:LinkButton runat="server" Text="Actualizar" CommandName="Update" ID="UpdateButton" CausesValidation="True" />&nbsp;<asp:LinkButton runat="server" Text="Cancelar" CommandName="Cancel" ID="UpdateCancelButton" CausesValidation="False" />
+                   <asp:Button runat="server" Text="Actualizar" CommandName="Update" ID="UpdateButton" CausesValidation="True" />
                     &nbsp;
-                    <asp:Button runat="server" Text="Cancelar" CommandName="Cancel" ID="UpdateCancelButton1" CausesValidation="False" />
+                    <asp:Button runat="server" Text="Cancelar" CommandName="Cancel" ID="UpdateCancelButton" CausesValidation="False" />
+           
                 </EditItemTemplate>
 
             </asp:FormView>

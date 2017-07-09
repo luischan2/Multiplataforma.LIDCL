@@ -68,6 +68,7 @@
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\Editar.aspx" />
     <Content Include="Admin\NuevaDireccion.aspx" />
+    <Content Include="css\Admin_css.css" />
     <Content Include="css\estiloParallax.css" />
     <Content Include="css\estilos.css" />
     <Content Include="Index.aspx" />

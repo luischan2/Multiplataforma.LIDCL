@@ -5,28 +5,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Admin-Nuevo</title>
+    <link href="../css/Admin_css.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="Admin_cuerpo">
             <h1>Nuevo Organismo</h1>
-            <asp:FormView ID="FormView1" DefaultMode="Insert" runat="server" DataSourceID="SqlDataSource1" DataKeyNames="Id" OnItemInserted="FormView1_ItemInserted">
+            <asp:FormView ID="FormView2" DefaultMode="Insert" runat="server" DataSourceID="SqlDataSource1" DataKeyNames="Id" OnItemInserted="FormView1_ItemInserted">
 
                 <InsertItemTemplate>
-                    nombre:
+                    nombre:<br />
                     <asp:TextBox Text='<%# Bind("nombre") %>' runat="server" ID="nombreTextBox" /><br />
-                    descripcion:
-                    <asp:TextBox Text='<%# Bind("descripcion") %>' runat="server" ID="descripcionTextBox" /><br />
-                    direccion:
+                    descripcion:<br />
+                    <asp:TextBox TextMode="MultiLine" Columns="50" Rows="10" Text='<%# Bind("descripcion") %>' runat="server" ID="descripcionTextBox" /><br />
+                    direccion:<br />
                     <asp:TextBox Text='<%# Bind("direccion") %>' runat="server" ID="direccionTextBox" /><br />
                     imagen:
-                    <asp:TextBox Text='<%# Bind("imagen") %>' runat="server" ID="imagenTextBox" /><br />
-                    visita:
+                    <br />
                     <asp:TextBox Text='<%# Bind("visita") %>' runat="server" ID="visitaTextBox" /><br />
-                    <asp:LinkButton runat="server" Text="Insertar" CommandName="Insert" ID="InsertButton" CausesValidation="True" />
+                    <asp:Button runat="server" Text="Insertar" CommandName="Insert" ID="InsertButton" CausesValidation="True" />
                     &nbsp;
-                    <asp:LinkButton runat="server" Text="Cancelar" CommandName="Cancel" ID="InsertCancelButton" CausesValidation="False" />
+                    <asp:Button runat="server" Text="Cancelar" CommandName="Cancel" ID="InsertCancelButton" CausesValidation="False" />
                 </InsertItemTemplate>
 
             </asp:FormView>

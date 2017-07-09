@@ -1,0 +1,23 @@
+﻿body {
+    margin:0;
+    font-family: Arial;
+    font-size: 20px;
+    background: url(http://www.planwallpaper.com/static/images/6990490-free-3d-backgrounds-wallpaper.jpg);
+}
+#Admin_cuerpo {
+    margin-top:20px;
+    
+    background-color:#bcbced;
+}
+    #Admin_cuerpo h1,a {
+        margin-left:30%;
+    }
+#GridView1 {
+    margin-left:15%;
+}
+#FormView1 {
+    margin-left:30%;
+}
+#FormView2 {
+    margin-left:30%;
+}
