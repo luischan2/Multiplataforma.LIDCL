@@ -15,7 +15,7 @@
     background-image: url("../img/cusco1.jpg");
 }
 #cabeza_main {
-    width: 100%;
+    width: 1200px;
     height: auto;
     margin-left:100px;
 }
@@ -23,10 +23,8 @@
     color:white;
 }
 .logo {
-    margin-left: 60px;
-    margin-top: 60px;
     left: 15px;
-    float:none;
+    width:900px;
     padding-top:15px;  
 }
     .logo img {
@@ -128,7 +126,6 @@ nav li {
             opacity: 1;
             border-radius: 2em;
             -webkit-transform: scale(1.2) rotate(360deg);
-            box-shadow: 0px 0px 20px #ddd;
         }
     .oficina h2 {
         
@@ -146,7 +143,6 @@ nav li {
 }
 /*-----------------------footer---------------*/
 #pie {
-    margin-left: 100px;
     float: none;
 }
 #wrapper-thank {
@@ -193,9 +189,7 @@ nav li {
     height: auto;
     background-color: rgba(229, 241, 162, 1);
     border-top: solid #F1F1F1 1px;
-    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
+
 }
 #row-1f {
     margin-left:150px;
@@ -215,7 +209,6 @@ nav li {
     line-height: 140%;
     margin-left: 20px;
     width: 80%;
-    text-align: left;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;

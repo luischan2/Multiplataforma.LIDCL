@@ -14,9 +14,9 @@
             </div>
         </ItemTemplate>
     </asp:Repeater>
-    <asp:SqlDataSource runat="server" ID="SqlDataSource1" 
-        ConnectionString='<%$ ConnectionStrings:UbicateConnectionString2 %>' 
-        SelectCommand="SELECT [nombre], [imagen], [visita] FROM [Organismos] ORDER BY [visita]">
+    <asp:SqlDataSource runat="server" ID="SqlDataSource1"
+        ConnectionString='<%$ ConnectionStrings:UbicateConnectionString2 %>'
+        SelectCommand="SELECT [nombre], [imagen], [visita] FROM [Organismos] ORDER BY [visita] DESC">
 
     </asp:SqlDataSource>
 </asp:Content>
