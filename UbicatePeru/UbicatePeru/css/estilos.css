@@ -11,14 +11,10 @@
 }
 #cabeza {
     width: 100%;
-<<<<<<< HEAD
     height: 150px;
     background-image: url("../img/cusco1.jpg");
-=======
-    height: 120px;
     background-color: #2E2D30;
     margin-top: 0px;
->>>>>>> 6cffe4f002f2765fdc4ebe3bdb282e2fdc6a0ec0
 }
 #cabeza_main {
     width: 100%;
@@ -34,7 +30,7 @@
     text-align:center;
     padding-top:15px;
     clear:right;
-    display: inline;
+    
    
 }
     .logo img {
@@ -73,7 +69,6 @@ nav li {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
 }
 
     #bouton-ai:hover, #bouton-psd:hover, #bouton-photo:hover, #bouton-font:hover, #bouton-theme:hover, #bouton-premium:hover {
@@ -88,11 +83,7 @@ nav li {
 
 /*------flotante----*/
 .flotante {
-<<<<<<< HEAD
     background-color: rgba(211, 201, 95, 0.91);
-=======
-    background-color: yellow;
->>>>>>> 6cffe4f002f2765fdc4ebe3bdb282e2fdc6a0ec0
     width: 150px;
     height: 200px;
     z-index: 1000;
@@ -168,7 +159,6 @@ nav li {
     height: 190px;
     line-height: 190px;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     color: #B3B3B3;
     font-weight: 400;
     width: 100%;
@@ -232,7 +222,6 @@ nav li {
     font-size: 14px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     color: #A1A1A1;
     margin-top: 80px;
 }
@@ -265,7 +254,6 @@ nav li {
     outline: 0;
     background: url(img/icon-newsletter.svg) no-repeat 10px 9px;
     margin-left: 20px;
-    vertical-align: center;
     font-weight: 400;
 }
 
@@ -295,7 +283,6 @@ nav li {
     outline: 0;
     margin: 0;
     background: url(img/icon-search.svg) no-repeat 12px 7px;
-    vertical-align: center;
     margin-left: -40px;
     background-color: #FFF;
 }
@@ -309,16 +296,4 @@ nav li {
     cursor: pointer;
     opacity: 1;
 }
-#frase_header {
-    float: right;
-    display: inline;
-    height:60px;
-    width:600px;
-    text-align: center;
-    margin-right: 30px;
-    margin-top: 30px;
-    font-family:Arial;
-    font-size: x-large;
-    color: white;
 
-}
