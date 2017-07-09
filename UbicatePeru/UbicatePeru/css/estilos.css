@@ -100,11 +100,11 @@ nav li {
 /*---------------principa-----------------*/
 #principal {
     margin-right: 30%;
-    margin-left: 50px;
-    width:95%;
-    border-radius:1em;
-    text-align:center;
-    background-color:aquamarine;
+    margin-left: 40px;
+    width: 95%;
+    border-radius: 1em;
+    text-align: center;
+    background: url(https://reciclajestorrejon.com/image/background.png);
 }
 .oficina {
     float: left;
@@ -161,7 +161,7 @@ nav li {
 }
 
 .thank-text {
-   
+    text-align:center;
     font-family: 'Pacifico', cursive;
     font-size: 70px;
     height: 190px;
