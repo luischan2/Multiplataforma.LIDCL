@@ -7,11 +7,16 @@
         <ItemTemplate>
             <div class="oficina">
                 <h2><%#Eval("nombre") %></h2>
-                
-                <h2>Numero de Visitas: <%#Eval("visita") %></h2>
+                <img height="200" width="200" src="<%#Eval("imagen") %>"/>
+                <br />
+                <p>Numero de Visitas: <%#Eval("visita") %></p>
                 <br />
             </div>
         </ItemTemplate>
     </asp:Repeater>
-    <asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:UbicateConnectionString2 %>' SelectCommand="SELECT * FROM [Oficina]"></asp:SqlDataSource>
+    <asp:SqlDataSource runat="server" ID="SqlDataSource1" 
+        ConnectionString='<%$ ConnectionStrings:UbicateConnectionString2 %>' 
+        SelectCommand="SELECT [nombre], [imagen], [visita] FROM [Organismos] ORDER BY [visita]">
+
+    </asp:SqlDataSource>
 </asp:Content>

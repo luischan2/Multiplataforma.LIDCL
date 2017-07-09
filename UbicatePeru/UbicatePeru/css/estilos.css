@@ -2,36 +2,32 @@
     font-family:Arial;
     font-size:14px;
     background-color:rgba(0,0,0,0.1);
-    margin:0;
 }
-#fijo {
+/*#fijo {
     position:fixed;
     top:0;
     width:100%;
-}
+    border-top:1px solid black;
+}*/
 #cabeza {
     width: 100%;
-    height: 150px;
+    height: 160px;
     background-image: url("../img/cusco1.jpg");
-    background-color: #2E2D30;
-    margin-top: 0px;
 }
 #cabeza_main {
     width: 100%;
     height: auto;
-    
-    
+    margin-left:100px;
+}
+#frase_header {
+    color:white;
 }
 .logo {
     margin-left: 60px;
     margin-top: 60px;
     left: 15px;
     float:none;
-    text-align:center;
-    padding-top:15px;
-    clear:right;
-    
-   
+    padding-top:15px;  
 }
     .logo img {
         border-radius:8em;
@@ -93,7 +89,7 @@ nav li {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     position: fixed;
     left: 0px;
-    top: 250px;
+    top: 300px;
 }
 /*----------------------------*/
 /*-----------contenedor----------*/
@@ -106,36 +102,52 @@ nav li {
 /*---------------principa-----------------*/
 #principal {
     margin-right: 30%;
-    background-color:#F2F2F2;
-    text-align: center;
-    margin-left: 30px;
-    float:none;
+    margin-left: 50px;
     width:95%;
     border-radius:1em;
+    text-align:center;
+    background-color:aquamarine;
 }
 .oficina {
     float: left;
     width: 32%;
     text-align: center;
-    min-height: 360%;
+    min-height: 100%;
+    text-align-last:center;
+    border:1px solid #B3B3B3;
+    height:350px;
 }
+    .oficina > img {
+        /*cursor: auto !important;*/
+        background-size: cover;
+        border-radius: 6px;
+        opacity: .6;
+        -webkit-transition: all .6s ease;
+    }
+        .oficina > img:hover {
+            opacity: 1;
+            border-radius: 2em;
+            -webkit-transform: scale(1.2) rotate(360deg);
+            box-shadow: 0px 0px 20px #ddd;
+        }
+    .oficina h2 {
+        
+        text-shadow: 20px rgba(0,0,0,0.3);
+    }
 /*-------------------aside---------------*/
 #lateral {
-    width:605px;
-    height:210px;
     min-height: 210px;
-    background-color: #ff6a00;
-    padding-top:10px;
+    background-color: #fafbbc;
+    padding-top: 10px;
     text-align: center;
-    margin-top:5px;
-    margin-left:25%;
-    
+}
+#AdRotator1 {
+    text-align:center;
 }
 /*-----------------------footer---------------*/
 #pie {
-   
-    margin-left:100px;
-    float:none;
+    margin-left: 100px;
+    float: none;
 }
 #wrapper-thank {
     width: 100%;
@@ -146,14 +158,14 @@ nav li {
 }
 
 .thank {
-    width: 1200px;
+    width: 100%;
     float:none;
     height: 100%;
     top: 0;
 }
 
 .thank-text {
-    text-align:center;
+   
     font-family: 'Pacifico', cursive;
     font-size: 70px;
     height: 190px;
@@ -164,10 +176,7 @@ nav li {
     width: 100%;
 }
 
-.wrapper-oldnew-prev, .wrapper-oldnew-next {
-    float: left;
-    width: 50%;
-}
+
 
 #oldnew-prev, #oldnew-next {
     width: 43px;
@@ -176,17 +185,6 @@ nav li {
     cursor: pointer;
 }
 
-#oldnew-next {
-  
-    margin-left: 25px;
-    float: left;
-}
-
-#oldnew-prev {
-    
-    margin-right: 25px;
-    float: right;
-}
 
 
 #main-container-footer {

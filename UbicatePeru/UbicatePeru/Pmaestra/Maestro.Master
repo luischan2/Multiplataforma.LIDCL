@@ -45,12 +45,12 @@
                 </div>
             </nav>
         </div>
-        <div id="contenedor">
+        
 
-            <section id="principal">
+            <div id="principal">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
-            </section>
+            </div>
 
             <div class="flotante">
                 <h2>La mejor opcion para encontrar todas las oficinas publicas del Peru</h2>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </footer>
-        </div>
+       
     </form>
 </body>
 </html>
